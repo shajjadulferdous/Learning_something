@@ -93,13 +93,12 @@ export default function JobPortalNavbar() {
                   >
                     Sign In
                   </Link>
-                  <Button
-                    as={Link}
+                  <Link
                     href="/register"
                     className="bg-white text-black font-semibold text-[14px] px-5 h-11 rounded-xl hover:bg-zinc-200 transition-all active:scale-[0.98]"
                   >
                     Get Started
-                  </Button>
+                  </Link>
                 </>
               ) : (
                 <Button
